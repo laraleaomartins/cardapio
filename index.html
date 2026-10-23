@@ -25,7 +25,7 @@
 </style>
 </head>
 <body>
-<header><h1>Cardápio · <span>Woodstock Rock Bar</span></h1><a class="btn" href="cardapio-woodstock-rock-bar.pdf">Abrir PDF</a></header>
+<header><h1>Cardápio · <span>Woodstock Rock Bar</span></h1><a class="btn" href="cardapio-woodstock-rock-bar.pdf?v=20261023">Abrir PDF</a></header>
 <main>
   <div id="status">Carregando o cardápio…</div>
   <div id="pages"></div>
@@ -33,7 +33,7 @@
 <script src="pdf.min.js"></script>
 <script>
 (function () {
-  var PDF_URL = "cardapio-woodstock-rock-bar.pdf";
+  var PDF_URL = "cardapio-woodstock-rock-bar.pdf?v=20261023";
   var status = document.getElementById("status");
   var container = document.getElementById("pages");
   function fail() { status.hidden = false; status.textContent = "Não foi possível carregar o cardápio. Verifique sua conexão e recarregue a página."; }
